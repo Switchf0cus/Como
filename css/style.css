@@ -1,0 +1,570 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Questrial&family=Varela+Round&display=swap");
+
+/* font-family: 'Questrial', sans-serif;
+font-family: 'Varela Round', sans-serif; */
+
+body {
+  overflow-x: hidden;
+  font-family: "Questrial", sans-serif;
+  color: #505962;
+}
+html {
+  scroll-behavior: smooth;
+}
+.offset:before {
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+}
+
+/* Navigation */
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  background-color: #f0ede6 !important;
+  box-shadow: 0px 1.5px 5px rgba(0, 0, 0, 0.2);
+}
+.navbar-brand img {
+  height: 3rem;
+}
+.navbar-nav li {
+  padding-right: 0.7rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #947349;
+  padding-top: 0.8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #f5852f;
+}
+.navbar-toggler-icon {
+  background-color: #947349;
+  border-radius: 10%;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.dropdown-menu {
+  background-color: #e8dfcd;
+  border-color: #dad0ba;
+  padding: 0.5rem 1.2rem;
+  width: 40%;
+}
+.testlink:hover {
+  color: #f5852f !important;
+  cursor: pointer;
+}
+a.nav-link {
+  color: #6f4e37;
+}
+/* Landing */
+.home-inner {
+  background-image: url(../images/coffeebeans.png);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 40%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+}
+.caption h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  text-shadow: 0.1rem 0.1rem 0.8rem black;
+  padding-bottom: 1rem;
+}
+.caption h3 {
+  font-size: 2rem;
+  text-shadow: 0.1rem 0.1rem 0.5rem black;
+  padding-bottom: 1.6rem;
+}
+
+.btn-lg {
+  border-width: medium;
+  border-radius: 0%;
+  padding: 0.6rem 1.3rem;
+  font-size: 1.1rem;
+  border-color: #f5852f;
+}
+.btn-lg:hover {
+  background-color: #c3b08a;
+  border-color: #c3b08a;
+  color: white;
+}
+
+/* What? Section */
+.narrow {
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 4rem;
+}
+.narrow h1 {
+  font-size: 2.4rem;
+}
+.narrow p {
+  padding-top: 2rem;
+}
+p.lead {
+  font-family: "Varela Round", sans-serif;
+  font-style: normal !important;
+}
+/* .whatSection{
+  padding: 2rem!important;
+} */
+.btn-secondary {
+  border-width: medium;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  padding: 0.6rem 1.2rem;
+  margin-top: 1rem;
+  color: white;
+  background-color: #c3b08a;
+  border-color: #c3b08a;
+  border-radius: 0.5rem;
+}
+.btn-secondary:hover {
+  background-color: #d3c3b6;
+  border-color: #cbbaaf;
+}
+
+/* How? Section */
+.jumbotron {
+  margin-bottom: 0%;
+  padding: 3rem 0 4.5rem;
+  border-radius: 0%;
+  color: #938c86;
+}
+h3.heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.9rem;
+  margin-top: -1rem;
+}
+.heading-underline {
+  width: 3rem;
+  height: 0.2rem;
+  background-color: #f5852f;
+  margin: 0 auto 2rem;
+}
+.feature svg.svg-inline--fa {
+  color: #c3b08a;
+}
+.feature svg.svg-inline--fa:hover {
+  color: #503826;
+}
+.fa-stopwatch,
+.fa-leaf,
+.fa-allergies,
+.fa-sliders,
+.fa-angellist,
+.fa-qrcode {
+  color: #c3b08a;
+  padding: 2rem;
+}
+.fa-stopwatch:hover,
+.fa-leaf:hover,
+.fa-allergies:hover,
+.fa-sliders:hover,
+.fa-angellist:hover,
+.fa-qrcode:hover {
+  color: #f5852f;
+}
+
+.feature h3 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  padding-bottom: 0.4rem;
+}
+.feature p {
+  font-size: 1.1rem;
+  font-style: normal !important;
+}
+
+/* Why? Section */
+.fixed {
+  background-image: url(../images/fixed_back.png);
+  z-index: -1;
+}
+.dark {
+  background-color: rgba(109, 95, 66, 0.749);
+  color: white;
+  padding: 7rem 2rem;
+}
+.fixed-background h3 {
+  margin-bottom: 2rem;
+}
+.fixed-background p {
+  margin-top: 1rem;
+  font-style: normal !important;
+}
+
+/* Client Section */
+.clients img {
+  width: 100%;
+  border-radius: 50%;
+}
+blockquote .fa-quote-left {
+  color: #6f4e37;
+  margin: 1rem;
+}
+.clients-hr {
+  border-top: 0.05rem solid #6f4e37;
+}
+/* Carousel Section */
+/* #carousel-example-1z{
+  height: 30%;
+} */
+
+.dropdownSignup {
+  padding: 5rem 0;
+}
+.dropdownSignup p {
+  font-family: "Varela Round", sans-serif;
+  font-size: large;
+}
+
+/* Contact Section */
+footer {
+  background-color: #c3b08a;
+  color: white;
+  padding: 2rem 0 3rem;
+}
+footer img {
+  height: 4rem;
+  margin: 1.5rem 0;
+}
+footer p {
+  color: white;
+  font-style: normal !important;
+}
+footer strong {
+  color: #f5852f;
+}
+footer a {
+  color: rgb(255, 254, 254);
+}
+footer svg.svg-inline--fa {
+  font-size: 1.6rem;
+  margin: 1.2rem 0.5rem 0 0;
+}
+footer svg.svg-inline--fa:hover {
+  color: #65376f;
+}
+hr.socket {
+  width: 100%;
+  border-top: 0.05rem solid #ae9460;
+  margin-top: 1rem;
+}
+.fa-facebook-official,
+.fa-instagram,
+.fa-pinterest-square {
+  color: #f0ede6;
+  font-size: 2rem;
+  padding: 1rem;
+}
+.fa-facebook-official:hover,
+.fa-instagram:hover,
+.fa-pinterest-square:hover {
+  color: #f5852f;
+}
+
+.copyright {
+  color: #545453;
+}
+
+/* Carousel */
+
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(100%);
+  margin-top: -2rem;
+}
+
+.carousel-control-next-icon:after,
+.carousel-control-prev-icon:after {
+  color: #f5852f;
+}
+
+.carousel-item p {
+  max-width: 70%;
+  margin: auto;
+}
+.carousel {
+  padding: 2rem 0;
+  background-color: #f0ede6;
+}
+
+small strong {
+  color: #f5852f;
+}
+
+.quotationMarks {
+  color: #f5852f;
+  padding: 1.1rem;
+  font-size: 1.3rem;
+}
+
+.carousel h5 {
+  color: #f5852f;
+  padding-bottom: 2rem;
+  font-size: 1.8rem;
+}
+
+/* Form Styling */
+
+#form1 {
+  display: none;
+}
+@media (min-width: 764px) {
+  li {
+    margin: auto;
+  }
+}
+
+/* CSS COPY For account.php*/
+
+.container-fluid {
+  padding: 0 !important;
+}
+.customForm {
+  max-width: 50% !important;
+  margin: auto !important;
+  margin-top: -1.5rem !important;
+  height: auto;
+}
+.col-xl-3 {
+  background: #e0d6b9;
+  margin-top: 12vh;
+  min-height: 350px;
+  height: 100vh;
+}
+.dflex {
+  justify-content: left;
+  flex-direction: column;
+}
+.myAccountHeading {
+  font-size: 2.5rem;
+  margin-top: -0.8rem;
+}
+.container {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.form-control {
+  width: 60%;
+  margin: auto;
+}
+.allergiescheck {
+  padding: 0;
+  background-color: #e0c2b9;
+  background-image: url(../images/formbackfround2.jpg);
+  border-color: #e0d6ce;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.checkboxNoAL {
+  font-size: 1rem;
+  margin-top: -0.9rem;
+  padding-left: 0.2rem;
+}
+.btn-light {
+  margin-top: 1.5rem;
+  background-color: #f5852f;
+  border-color: #f5852f;
+  min-width: 10rem;
+  height: 3rem;
+  font-size: 3vh;
+}
+.btn-light:hover {
+  background-color: #eb924e;
+  border-color: #eb924e;
+}
+.sendMyCard {
+  margin-top: 5rem;
+}
+
+.col-xl-12 {
+  background-color: #fff4e9;
+  width: 100%;
+  height: 100vh;
+}
+
+#accountPage {
+  background-color: #fff4e9;
+  height: 100vh;
+}
+.profilesidebar {
+  margin: 5%;
+}
+
+input[type="checkbox"] {
+  padding: 10rem;
+}
+.personalinfo {
+  max-width: 700px;
+}
+.parameters {
+  margin-top: 5%;
+}
+
+@media (min-width: 764px) {
+  li {
+    margin: auto;
+  }
+  .form-control {
+    width: 100%;
+  }
+}
+
+/* account */
+.fixed {
+  background-image: url(../images/fixed_back.png);
+  z-index: -1;
+}
+
+.account-md-4 {
+  background-color: #fff5ebcc;
+  border-top: rgba(255, 245, 235, 0.3) 12px solid;
+  color: #503826;
+  margin: 0.6rem;
+  border-radius: 2px;
+  box-shadow: 0px 2px 15px rgb(0, 0, 0, 0.4);
+}
+.account-md-4:hover {
+  border-top: rgb(245, 133, 47, 0.8) 12px solid;
+   transition: all .5s ease-out;
+  
+}
+.details {
+  padding: 0rem;
+}
+.details h3 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  padding-bottom: 0.2rem;
+}
+.details p {
+  font-size: 1.1rem;
+  font-style: normal !important;
+  padding-top: 0.4rem;
+}
+.btn .btn-dark {
+  background-color: #f5852f !important;
+  margin-left: -5rem;
+}
+.btn-warning {
+  background-color: #f5852f !important;
+  margin-left: 5rem;
+}
+.btn-outline-light{
+  color: #f5852f;
+  border-color: #f5852f;
+}
+.btn-outline-light:hover{
+  background-color: #f5852f;
+  border-color: #f5852f;
+}
+
+.btn-link, .btn-link:hover{
+  color: red;
+}
+.modal-header{
+  justify-content: center;
+}
+
+h3 .edit-data{
+  color: red;
+  margin-top: 10%;
+}
+/* Edit User Data */
+.col-xl-6 {
+  margin: auto;
+  margin-top: 10rem;
+  background-color: rgb(195, 176, 138, 0.5);
+  border: #f5852f 1px solid;
+  border-radius: 3px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+}
+p .label-user-data{
+  color: #f5852f;
+}
+
+/* LOGIN_CREATE.PHP */
+
+.containerLogin {
+  padding: 10rem;
+}
+.loginForm label {
+  color: #a5693b;
+}
+
+.bootstrap-select .bs-ok-default::after {
+  width: 0.3em;
+  height: 0.6em;
+  border-width: 0 0.1em 0.1em 0;
+  transform: rotate(45deg) translateY(0.5rem);
+  color: #f5852f;
+}
+
+.btn.dropdown-toggle:focus {
+  outline: none !important;
+}
+
+/*============= COURSE SECTION =============*/
+
+/* .narrow {
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
+.narrow h1 {
+    font-size: 2.4rem;
+  }
+.btn-secondary {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  border-color: #1EBBA3;
+  background-color: #1EBBA3;
+  color: white;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: #189582;
+  background-color: #189582;
+  color: white;
+} */
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/

@@ -1,0 +1,87 @@
+
+.form-box{
+    
+    height:auto;
+    text-align: center;
+	border:solid 1px red;
+	padding:10px;
+	margin:50px auto;
+	width:500px;
+    background-color: #d9d9d9;
+    border : 1px solid green;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+ }
+
+ #upload-form{
+
+     margin : 50px auto;
+ }
+
+
+
+ input[type="submit"]{
+    cursor:pointer;
+	width:30%;
+    height:40px;
+	border:none;
+	background:#881D57;
+	color:#FFF;
+	margin:5px 5px;
+	padding:10px;
+	border-radius:5px;
+
+}
+input[type="submit"]:hover {
+    background:#991D57;
+}  
+
+
+ input[type="file"]{
+    cursor:pointer;
+	width:50%;
+    height:20px;
+	border:none;
+	background:#881D57;
+	color:#FFF;
+	margin:5px 5px;
+	padding:10px;
+	border-radius:5px;
+
+}
+
+
+.error{
+    color:red;
+}
+ .error{
+     color:red;
+ }
+
+ .confirmation{
+    margin: 50px auto;
+    width: 350px;
+    padding:10px;
+    height: auto;
+    border: 3px solid green;
+    text-align: left;
+    font-size: 1.1em;
+  
+    font-weight: bold;
+    color: green;
+    background-color: lightblue;
+    word-break: normal;
+}
+
+ img{
+      
+	 -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+	-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+ }
